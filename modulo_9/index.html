@@ -6,6 +6,7 @@
     <title>JQuerry</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= "main.css">
 </head>
 <body>
     <header>
@@ -14,9 +15,37 @@
     </header>
     <form>
         <h2>Inserir nova imagem</h2>
-        <input type="url" required placeholder="URL da Imagem">
+        <input type="url" id="endereco-imagem-nova" required placeholder="URL da Imagem">
         <button type="submit">Adcionar</button>
-        <button type="reset">Cancelar</button>
+        <button id="botao-cancelar" type="reset">Cancelar</button>
     </form>
+    <ul>
+        <li>
+            <img src="./images-2/foto1.jpg" alt="Pintura de um gato">
+            <div class="overlay-image-link">
+                <a href="./images-2/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images-2/foto2.jpg" alt="Pintura de um gato">
+            <div class="overlay-image-link">
+                <a href="./images-2/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images-2/foto3.jpg" alt="Pintura de um gato">
+            <div class="overlay-image-link">
+                <a href="./images-2/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src=" https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
