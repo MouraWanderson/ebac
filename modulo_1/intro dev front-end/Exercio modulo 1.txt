@@ -1,0 +1,3 @@
+﻿Exercício modulo 1 - introdução ao desenvolvimento front-end
+
+O desenvolvimento front-end consiste em uma tríade básica onde a integração dessas três ferramentas juntas podem expressar a experiencia do usuário de uma forma semântica, intuitiva e responsiva, sendo elas o HTML como estrutura básica definindo a parte semântica, o CSS definindo o estilo da personalização da página e por fim do JavaScript como forma de interação entre usuário e o conteúdo da pagina.   
